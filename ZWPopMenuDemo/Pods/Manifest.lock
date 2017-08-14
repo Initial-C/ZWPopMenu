@@ -1,0 +1,16 @@
+PODS:
+  - ZWPopMenu (0.0.1)
+
+DEPENDENCIES:
+  - ZWPopMenu (from `../`)
+
+EXTERNAL SOURCES:
+  ZWPopMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZWPopMenu: 29d92ab15b2aa821b670b1b803cd50ecce923e45
+
+PODFILE CHECKSUM: 395453566dfae5f056434a86643b2abba1f55dac
+
+COCOAPODS: 1.2.0.beta.3

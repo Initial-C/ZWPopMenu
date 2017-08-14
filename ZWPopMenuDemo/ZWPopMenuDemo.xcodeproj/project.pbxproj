@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E79456D2A31FCD389CC383 /* libPods-ZWPopMenuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B06B9868882CEEF83AB6092 /* libPods-ZWPopMenuDemo.a */; };
+		529C10911F4193D10062DA50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C10901F4193D10062DA50 /* main.m */; };
+		529C10941F4193D10062DA50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C10931F4193D10062DA50 /* AppDelegate.m */; };
+		529C109D1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 529C109B1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodeld */; };
+		529C109F1F4193D10062DA50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529C109E1F4193D10062DA50 /* Assets.xcassets */; };
+		529C10A21F4193D10062DA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529C10A01F4193D10062DA50 /* LaunchScreen.storyboard */; };
+		529C10AB1F4199720062DA50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C10A91F4199720062DA50 /* ViewController.m */; };
+		529C10AC1F4199720062DA50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529C10AA1F4199720062DA50 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B06B9868882CEEF83AB6092 /* libPods-ZWPopMenuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZWPopMenuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3514A91C8B41B3709D73D4 /* Pods-ZWPopMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWPopMenuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWPopMenuDemo/Pods-ZWPopMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		529C108C1F4193D10062DA50 /* ZWPopMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWPopMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529C10901F4193D10062DA50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		529C10921F4193D10062DA50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		529C10931F4193D10062DA50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		529C10951F4193D10062DA50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		529C109C1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZWPopMenuDemo.xcdatamodel; sourceTree = "<group>"; };
+		529C109E1F4193D10062DA50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529C10A11F4193D10062DA50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529C10A31F4193D10062DA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529C10A91F4199720062DA50 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		529C10AA1F4199720062DA50 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		70C64AF7B53DA2EDE1EA8544 /* Pods-ZWPopMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWPopMenuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWPopMenuDemo/Pods-ZWPopMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529C10891F4193D10062DA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E79456D2A31FCD389CC383 /* libPods-ZWPopMenuDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4807515D7E7AAE4D6447378D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F3514A91C8B41B3709D73D4 /* Pods-ZWPopMenuDemo.debug.xcconfig */,
+				70C64AF7B53DA2EDE1EA8544 /* Pods-ZWPopMenuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		529C10831F4193D10062DA50 = {
+			isa = PBXGroup;
+			children = (
+				529C108E1F4193D10062DA50 /* ZWPopMenuDemo */,
+				529C108D1F4193D10062DA50 /* Products */,
+				4807515D7E7AAE4D6447378D /* Pods */,
+				58A1267230212ABBAE8C9F48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		529C108D1F4193D10062DA50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529C108C1F4193D10062DA50 /* ZWPopMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529C108E1F4193D10062DA50 /* ZWPopMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				529C10921F4193D10062DA50 /* AppDelegate.h */,
+				529C10931F4193D10062DA50 /* AppDelegate.m */,
+				529C10951F4193D10062DA50 /* ViewController.h */,
+				529C10A91F4199720062DA50 /* ViewController.m */,
+				529C10AA1F4199720062DA50 /* Main.storyboard */,
+				529C109E1F4193D10062DA50 /* Assets.xcassets */,
+				529C10A01F4193D10062DA50 /* LaunchScreen.storyboard */,
+				529C10A31F4193D10062DA50 /* Info.plist */,
+				529C109B1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodeld */,
+				529C108F1F4193D10062DA50 /* Supporting Files */,
+			);
+			path = ZWPopMenuDemo;
+			sourceTree = "<group>";
+		};
+		529C108F1F4193D10062DA50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				529C10901F4193D10062DA50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58A1267230212ABBAE8C9F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B06B9868882CEEF83AB6092 /* libPods-ZWPopMenuDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529C108B1F4193D10062DA50 /* ZWPopMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529C10A61F4193D10062DA50 /* Build configuration list for PBXNativeTarget "ZWPopMenuDemo" */;
+			buildPhases = (
+				786BF8BC9E28F182AB98519A /* [CP] Check Pods Manifest.lock */,
+				529C10881F4193D10062DA50 /* Sources */,
+				529C10891F4193D10062DA50 /* Frameworks */,
+				529C108A1F4193D10062DA50 /* Resources */,
+				4DA72F81F32D831851BF0A5C /* [CP] Embed Pods Frameworks */,
+				1BDB35578DCCCC4D74718D5B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWPopMenuDemo;
+			productName = ZWPopMenuDemo;
+			productReference = 529C108C1F4193D10062DA50 /* ZWPopMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529C10841F4193D10062DA50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = InitialC;
+				TargetAttributes = {
+					529C108B1F4193D10062DA50 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8SYCX67H7W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 529C10871F4193D10062DA50 /* Build configuration list for PBXProject "ZWPopMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529C10831F4193D10062DA50;
+			productRefGroup = 529C108D1F4193D10062DA50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529C108B1F4193D10062DA50 /* ZWPopMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529C108A1F4193D10062DA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529C10AC1F4199720062DA50 /* Main.storyboard in Resources */,
+				529C10A21F4193D10062DA50 /* LaunchScreen.storyboard in Resources */,
+				529C109F1F4193D10062DA50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BDB35578DCCCC4D74718D5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWPopMenuDemo/Pods-ZWPopMenuDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA72F81F32D831851BF0A5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWPopMenuDemo/Pods-ZWPopMenuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		786BF8BC9E28F182AB98519A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529C10881F4193D10062DA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529C109D1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodeld in Sources */,
+				529C10941F4193D10062DA50 /* AppDelegate.m in Sources */,
+				529C10AB1F4199720062DA50 /* ViewController.m in Sources */,
+				529C10911F4193D10062DA50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		529C10A01F4193D10062DA50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529C10A11F4193D10062DA50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529C10A41F4193D10062DA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		529C10A51F4193D10062DA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529C10A71F4193D10062DA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3514A91C8B41B3709D73D4 /* Pods-ZWPopMenuDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SYCX67H7W;
+				INFOPLIST_FILE = ZWPopMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imust.popmenu.ZWPopMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		529C10A81F4193D10062DA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C64AF7B53DA2EDE1EA8544 /* Pods-ZWPopMenuDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8SYCX67H7W;
+				INFOPLIST_FILE = ZWPopMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imust.popmenu.ZWPopMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529C10871F4193D10062DA50 /* Build configuration list for PBXProject "ZWPopMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529C10A41F4193D10062DA50 /* Debug */,
+				529C10A51F4193D10062DA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529C10A61F4193D10062DA50 /* Build configuration list for PBXNativeTarget "ZWPopMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529C10A71F4193D10062DA50 /* Debug */,
+				529C10A81F4193D10062DA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		529C109B1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				529C109C1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodel */,
+			);
+			currentVersion = 529C109C1F4193D10062DA50 /* ZWPopMenuDemo.xcdatamodel */;
+			path = ZWPopMenuDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 529C10841F4193D10062DA50 /* Project object */;
+}

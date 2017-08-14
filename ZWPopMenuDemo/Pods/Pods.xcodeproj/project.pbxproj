@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCC111B5556D4ADD478DC43098B34AD /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE32A2F3AE92434B06965DDAD7C27E4C /* MenuModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E661EC66DC8CE6A83D5D203A5AA1CC5 /* MenuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFB3C650DF899AB42A817473F32CB70 /* MenuModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1836DB6E98CF61F35CA65245E24CB8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		25D4DCE5A885BD0EF354AB5DED8424E6 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D190A92C5BC7CB93F848E071031D8 /* UIView+AdjustFrame.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		710F873C9237E5B422ECD5C49607B4B6 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 838012600B8B2FA18E81C3DA27E9FF86 /* MenuTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C4D8046087923A6B3BD852D597E6B85 /* MenuTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C0AACC8A9654A468DC3199C94CB654EB /* MenuTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD5DABCFF4CE411B6185B65AF97C5BD /* ZWCommonMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AD2ED2B952A67E0276DC0F8D7FF91A /* ZWCommonMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A69C772057EF677E7F6E529285129B /* ZWCommonMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ED4F455771ADD447625228191C54F3 /* ZWCommonMenuView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8B1F8DA42E0309D5E5F85E986C6BC0F9 /* ZWPopMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2190C8C7052EE34D294CE890BC0DD3 /* ZWPopMenu-dummy.m */; };
+		92D99FE37F922D81FB4B0DF5E0254AF5 /* Pods-ZWPopMenuDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E18231D463C8619ED6E940F7A96CBBC5 /* Pods-ZWPopMenuDemo-dummy.m */; };
+		C5FD71020EA64B0495520BF3CB70C6E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		D97A03E3261A2CB5C5E94B3B0BEC53D0 /* UIView+AdjustFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C52C98B57B8141128557D0605DDC75 /* UIView+AdjustFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0F503216E51AF9FDF17090B4C9FDC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AF0683758651344E567B2B76C40667C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EB6379E3B30F3F266D0A95C96F90D3;
+			remoteInfo = ZWPopMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4D190A92C5BC7CB93F848E071031D8 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		11F668FC1A12FD3D7BE828C8F8551081 /* ZWPopMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZWPopMenu-prefix.pch"; sourceTree = "<group>"; };
+		2F09FD3F2B43B489A40A17C8AF216D8A /* Pods-ZWPopMenuDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZWPopMenuDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3807FA2C3D54256226422AA7A715C052 /* Pods-ZWPopMenuDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZWPopMenuDemo-frameworks.sh"; sourceTree = "<group>"; };
+		42AD2ED2B952A67E0276DC0F8D7FF91A /* ZWCommonMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZWCommonMenuView.h; sourceTree = "<group>"; };
+		4E4EE0D8B3E58D68825F57AA9BB40C30 /* Pods-ZWPopMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWPopMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		614F68B9F11E4E6ECAE55F73C7C514E8 /* Pods-ZWPopMenuDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZWPopMenuDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63C52C98B57B8141128557D0605DDC75 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		6EFB3C650DF899AB42A817473F32CB70 /* MenuModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
+		76B6001F745F116532A8A3354DB4E0C4 /* Pods-ZWPopMenuDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZWPopMenuDemo-resources.sh"; sourceTree = "<group>"; };
+		7983D8998BFA40C298D8376B8F1F1B80 /* libZWPopMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZWPopMenu.a; path = libZWPopMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFA720CBE7616DB6748D5844728D230 /* libPods-ZWPopMenuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZWPopMenuDemo.a"; path = "libPods-ZWPopMenuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		838012600B8B2FA18E81C3DA27E9FF86 /* MenuTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2C6DBFAA439D559C2A394EE6B5FD51 /* Pods-ZWPopMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZWPopMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A2ED4F455771ADD447625228191C54F3 /* ZWCommonMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZWCommonMenuView.m; sourceTree = "<group>"; };
+		AE2190C8C7052EE34D294CE890BC0DD3 /* ZWPopMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZWPopMenu-dummy.m"; sourceTree = "<group>"; };
+		C0AACC8A9654A468DC3199C94CB654EB /* MenuTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
+		CD7DA2CBF3F9CB96175DC57C589759FF /* ZWPopMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZWPopMenu.xcconfig; sourceTree = "<group>"; };
+		CE32A2F3AE92434B06965DDAD7C27E4C /* MenuModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
+		E18231D463C8619ED6E940F7A96CBBC5 /* Pods-ZWPopMenuDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZWPopMenuDemo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C887FF4C1E32F2110A634DF278A28363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FD71020EA64B0495520BF3CB70C6E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D064F9DBDD0352423C22E2291CC8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1836DB6E98CF61F35CA65245E24CB8E5 /* Foundation.framework in Frameworks */,
+				DD0F503216E51AF9FDF17090B4C9FDC4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B381791A5F4A84C904636850C44FC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9A7569A7E76CBA80F5655CE9FCE2B30 /* Pods-ZWPopMenuDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0636E6EB36189E729E134C8C881C848A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7DA2CBF3F9CB96175DC57C589759FF /* ZWPopMenu.xcconfig */,
+				AE2190C8C7052EE34D294CE890BC0DD3 /* ZWPopMenu-dummy.m */,
+				11F668FC1A12FD3D7BE828C8F8551081 /* ZWPopMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "ZWPopMenuDemo/Pods/Target Support Files/ZWPopMenu";
+			sourceTree = "<group>";
+		};
+		3A48E602A77028877E15494FBF9622B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFA720CBE7616DB6748D5844728D230 /* libPods-ZWPopMenuDemo.a */,
+				7983D8998BFA40C298D8376B8F1F1B80 /* libZWPopMenu.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5118CAEE0D2C632B383D8B781E1BD2CA /* ZWPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				E4595C44A9CF0BB49FB53E24F0861F64 /* Classes */,
+				0636E6EB36189E729E134C8C881C848A /* Support Files */,
+			);
+			name = ZWPopMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				94F5CB7B588F05FF90D99A5131869CD2 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3A48E602A77028877E15494FBF9622B5 /* Products */,
+				05B381791A5F4A84C904636850C44FC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94F5CB7B588F05FF90D99A5131869CD2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5118CAEE0D2C632B383D8B781E1BD2CA /* ZWPopMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E4595C44A9CF0BB49FB53E24F0861F64 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6EFB3C650DF899AB42A817473F32CB70 /* MenuModel.h */,
+				CE32A2F3AE92434B06965DDAD7C27E4C /* MenuModel.m */,
+				C0AACC8A9654A468DC3199C94CB654EB /* MenuTableViewCell.h */,
+				838012600B8B2FA18E81C3DA27E9FF86 /* MenuTableViewCell.m */,
+				63C52C98B57B8141128557D0605DDC75 /* UIView+AdjustFrame.h */,
+				0A4D190A92C5BC7CB93F848E071031D8 /* UIView+AdjustFrame.m */,
+				42AD2ED2B952A67E0276DC0F8D7FF91A /* ZWCommonMenuView.h */,
+				A2ED4F455771ADD447625228191C54F3 /* ZWCommonMenuView.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F9A7569A7E76CBA80F5655CE9FCE2B30 /* Pods-ZWPopMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2F09FD3F2B43B489A40A17C8AF216D8A /* Pods-ZWPopMenuDemo-acknowledgements.markdown */,
+				614F68B9F11E4E6ECAE55F73C7C514E8 /* Pods-ZWPopMenuDemo-acknowledgements.plist */,
+				E18231D463C8619ED6E940F7A96CBBC5 /* Pods-ZWPopMenuDemo-dummy.m */,
+				3807FA2C3D54256226422AA7A715C052 /* Pods-ZWPopMenuDemo-frameworks.sh */,
+				76B6001F745F116532A8A3354DB4E0C4 /* Pods-ZWPopMenuDemo-resources.sh */,
+				4E4EE0D8B3E58D68825F57AA9BB40C30 /* Pods-ZWPopMenuDemo.debug.xcconfig */,
+				9C2C6DBFAA439D559C2A394EE6B5FD51 /* Pods-ZWPopMenuDemo.release.xcconfig */,
+			);
+			name = "Pods-ZWPopMenuDemo";
+			path = "Target Support Files/Pods-ZWPopMenuDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F63AF6D8B06E271925A9A2EEE54B9B05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E661EC66DC8CE6A83D5D203A5AA1CC5 /* MenuModel.h in Headers */,
+				7C4D8046087923A6B3BD852D597E6B85 /* MenuTableViewCell.h in Headers */,
+				D97A03E3261A2CB5C5E94B3B0BEC53D0 /* UIView+AdjustFrame.h in Headers */,
+				7CD5DABCFF4CE411B6185B65AF97C5BD /* ZWCommonMenuView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04EB6379E3B30F3F266D0A95C96F90D3 /* ZWPopMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1722E61224D4C6D50D95125A10346E7B /* Build configuration list for PBXNativeTarget "ZWPopMenu" */;
+			buildPhases = (
+				35E2CFD796C2E70618E0DA32AF1F2991 /* Sources */,
+				D4D064F9DBDD0352423C22E2291CC8D3 /* Frameworks */,
+				F63AF6D8B06E271925A9A2EEE54B9B05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWPopMenu;
+			productName = ZWPopMenu;
+			productReference = 7983D8998BFA40C298D8376B8F1F1B80 /* libZWPopMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A308DF4E2B71389DAC426334E58310E6 /* Pods-ZWPopMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6C194A0EE67E2D657704D66A6D9D93 /* Build configuration list for PBXNativeTarget "Pods-ZWPopMenuDemo" */;
+			buildPhases = (
+				87AE02CF09F94420E218F8F5CAA37ECD /* Sources */,
+				C887FF4C1E32F2110A634DF278A28363 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363D8BC83D64B741DEEC6AFED675191C /* PBXTargetDependency */,
+			);
+			name = "Pods-ZWPopMenuDemo";
+			productName = "Pods-ZWPopMenuDemo";
+			productReference = 7BFA720CBE7616DB6748D5844728D230 /* libPods-ZWPopMenuDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3A48E602A77028877E15494FBF9622B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A308DF4E2B71389DAC426334E58310E6 /* Pods-ZWPopMenuDemo */,
+				04EB6379E3B30F3F266D0A95C96F90D3 /* ZWPopMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E2CFD796C2E70618E0DA32AF1F2991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCC111B5556D4ADD478DC43098B34AD /* MenuModel.m in Sources */,
+				710F873C9237E5B422ECD5C49607B4B6 /* MenuTableViewCell.m in Sources */,
+				25D4DCE5A885BD0EF354AB5DED8424E6 /* UIView+AdjustFrame.m in Sources */,
+				88A69C772057EF677E7F6E529285129B /* ZWCommonMenuView.m in Sources */,
+				8B1F8DA42E0309D5E5F85E986C6BC0F9 /* ZWPopMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87AE02CF09F94420E218F8F5CAA37ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D99FE37F922D81FB4B0DF5E0254AF5 /* Pods-ZWPopMenuDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		363D8BC83D64B741DEEC6AFED675191C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZWPopMenu;
+			target = 04EB6379E3B30F3F266D0A95C96F90D3 /* ZWPopMenu */;
+			targetProxy = 7AF0683758651344E567B2B76C40667C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3D085F84FD64EADCE76764497B2EE7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2C6DBFAA439D559C2A394EE6B5FD51 /* Pods-ZWPopMenuDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99DE60EB81A3F787CA23A9365E55C148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7DA2CBF3F9CB96175DC57C589759FF /* ZWPopMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZWPopMenu/ZWPopMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B1C909E306A1C5464E0355EC9D8B9F43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7DA2CBF3F9CB96175DC57C589759FF /* ZWPopMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZWPopMenu/ZWPopMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E6A21929BBF1441ABEBE4EB024961377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4EE0D8B3E58D68825F57AA9BB40C30 /* Pods-ZWPopMenuDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1722E61224D4C6D50D95125A10346E7B /* Build configuration list for PBXNativeTarget "ZWPopMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99DE60EB81A3F787CA23A9365E55C148 /* Debug */,
+				B1C909E306A1C5464E0355EC9D8B9F43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6C194A0EE67E2D657704D66A6D9D93 /* Build configuration list for PBXNativeTarget "Pods-ZWPopMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A21929BBF1441ABEBE4EB024961377 /* Debug */,
+				3D085F84FD64EADCE76764497B2EE7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
