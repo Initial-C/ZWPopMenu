@@ -66,7 +66,7 @@
     tableView.delegate = self;
     tableView.dataSource = self;
     tableView.bounces = NO;
-    tableView.rowHeight = 40;
+    tableView.rowHeight = 32;
     tableView.showsVerticalScrollIndicator = NO;
     tableView.backgroundColor = [UIColor clearColor];
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -77,7 +77,7 @@
     self.alpha = 0;
     
     UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
-    backView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.3];
+    backView.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.8];
     [backView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)]];
     backView.alpha = 0;
     backView.tag = kCoverViewTag;
@@ -171,8 +171,8 @@
     ZWCommonMenuView *menuView = [[UIApplication sharedApplication].keyWindow viewWithTag:kMenuTag];
     menuView.maxValueForItemCount = menuView.menuDataArray.count;
     menuView.transform = CGAffineTransformMakeScale(1.0, 1.0);;
-    menuView.contentTableView.height = 40 * menuView.maxValueForItemCount;
-    menuView.height = 40 * menuView.maxValueForItemCount + kTriangleHeight * 2 - 0.5;
+    menuView.contentTableView.height = 32 * menuView.maxValueForItemCount;
+    menuView.height = 32 * menuView.maxValueForItemCount + kTriangleHeight * 2 - 0.5;
     menuView.layer.mask = [menuView getBorderLayer];
     menuView.transform = CGAffineTransformMakeScale(0.01, 0.01);
 }
@@ -225,7 +225,7 @@
     
     CGFloat menuWidth = frame.size.width ? frame.size.width : 120;
     
-    ZWCommonMenuView *menuView = [[ZWCommonMenuView alloc] initWithFrame:CGRectMake(0, 0, menuWidth, 40 * dataArray.count)];
+    ZWCommonMenuView *menuView = [[ZWCommonMenuView alloc] initWithFrame:CGRectMake(0, 0, menuWidth, 32 * dataArray.count)];
     menuView.selfMenu = menuView;
     menuView.itemsClickBlock = itemsClickBlock;
     menuView.backViewTapBlock = backViewTapBlock;

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZWPopMenu"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ZWPopMenu is simple and easy to use"
   s.homepage     = "https://github.com/Initial-C"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
