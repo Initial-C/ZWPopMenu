@@ -14,8 +14,8 @@
 @property (assign, nonatomic) CGFloat y;
 @property (nonatomic,assign) CGFloat max_X;
 @property (nonatomic,assign) CGFloat max_Y;
-@property (nonatomic, assign) CGFloat centerX;
-@property (nonatomic, assign) CGFloat centerY;
+@property (nonatomic, assign) CGFloat center_X;
+@property (nonatomic, assign) CGFloat center_Y;
 @property (assign, nonatomic) CGFloat width;
 @property (assign, nonatomic) CGFloat height;
 @property (assign, nonatomic) CGSize size;
