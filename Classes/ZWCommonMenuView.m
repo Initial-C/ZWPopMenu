@@ -247,10 +247,11 @@
 
 + (void)clearMenu{
     [ZWCommonMenuView hidden];
-    ZWCommonMenuView *menuView = [[UIApplication sharedApplication].keyWindow viewWithTag:kMenuTag];
-    UIView *coverView = [[UIApplication sharedApplication].keyWindow viewWithTag:kCoverViewTag];
-    [menuView removeFromSuperview];
-    [coverView removeFromSuperview];
+    for (UIView *view in [[UIApplication sharedApplication].keyWindow subviews]) {
+        if (view.tag == kMenuTag || view.tag == kCoverViewTag) {
+            [view removeFromSuperview];
+        }
+    }
 }
 
 + (void)appendMenuItemsWith:(NSArray *)appendItemsArray{
